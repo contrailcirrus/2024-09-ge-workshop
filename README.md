@@ -12,6 +12,6 @@ Experience indicates that trying to run notebooks locally during workshops resul
 
 - Sign into your GCP account and go to the [Project Selector](https://console.cloud.google.com/projectselector2). Select the project you want to use for the workshop (or create a new project), and note its project ID.
 
-- Check that you can authenticate your GCP account by opening and running [test-setup.ipynb]() in Colab. You will need to paste the project ID you noted in the previous step into one of the cells before running.
+- Check that you can authenticate with your GCP account in Colab by opening and running [test-setup.ipynb](https://colab.research.google.com/github/contrailcirrus/2024-09-ge-workshop/blob/main/test-setup.ipynb) in Colab. You will need to paste the project ID you noted in the previous step into one of the cells before running. If successful, you should end with a plot of low and high temperatures in Schenectady.
 
 ## Outline (WIP)
