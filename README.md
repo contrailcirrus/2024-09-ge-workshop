@@ -15,3 +15,22 @@ Experience indicates that trying to run notebooks locally during workshops resul
 - Check that you can authenticate with your GCP account in Colab by opening and running [test-setup.ipynb](https://colab.research.google.com/github/contrailcirrus/2024-09-ge-workshop/blob/main/test-setup.ipynb) in Colab. You will need to paste the project ID you noted in the previous step into one of the cells before running. If successful, you should end with a plot of low and high temperatures in Schenectady.
 
 ## Outline (WIP)
+
+The workshop is split into two parts.
+
+The first part provides an introduction to tools for modeling contrails and forecasting contrail-forming regions. These tools are well-developed and used both for research and in production environments.
+
+The second part provides an overview of an open problem: developing a strategy for using observations to verify output from contrail models. This part of the workshop will introduce three sources of contrail observations--geostationary satellites, low-Earth-orbit satellites, and ground-based cameras--and demo tools for accessing and analyzing them. The goal of this part of the workshop is not to present a "solution" to the verification problem, but rather to lower the barrier to entry for people interested in working on it.
+
+### Part 1: pycontrails basics
+
+- Demo: modeling a contrail with [Cocip](https://py.contrails.org/api/pycontrails.models.cocip.Cocip.html#pycontrails.models.cocip.Cocip)
+- Demo: forecasting contrail-forming regions with [CocipGrid](https://py.contrails.org/api/pycontrails.models.cocipgrid.CocipGrid.html#pycontrails.models.cocipgrid.CocipGrid)
+- Q&A/unstructured work time
+
+### Part 2: verification strategies
+
+- Demo: automated contrail detection in geostationary satellite imagery
+- Demo: finding flights and contrails in low-Earth-orbit satellite imagery. Based on material from [London contrails workshop](https://github.com/contrailcirrus/2024-06-contrails-workshop/blob/main/labs/landsat_sentinel/Landsat_Sentinel.ipynb).
+- Demo: analysing ground-based contrail imagery. Based on material from [London contrails workshop](https://github.com/contrailcirrus/2024-06-contrails-workshop/tree/main/labs/observer_app_hackathon).
+- Q&A/unstructured work time
