@@ -34,7 +34,7 @@ The second part provides an overview of an open problem: developing a strategy f
 
 [verification-strategies.ipynb](https://colab.research.google.com/github/contrailcirrus/2024-09-ge-workshop/blob/main/verification-strategies.ipynb)
 
-- Demo: automated contrail detection in geostationary satellite imagery
+- Demo: comparing contrail models with geostationary satellite imagery
 - Demo: finding flights and contrails in low-Earth-orbit satellite imagery. Based on material from [London contrails workshop](https://github.com/contrailcirrus/2024-06-contrails-workshop/blob/main/labs/landsat_sentinel/Landsat_Sentinel.ipynb).
 - Demo: analysing ground-based contrail imagery. Based on material from [London contrails workshop](https://github.com/contrailcirrus/2024-06-contrails-workshop/tree/main/labs/observer_app_hackathon).
 - Q&A/unstructured work time
