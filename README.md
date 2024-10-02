@@ -1,6 +1,6 @@
 # Pycontrails workshop @ GE LEAD symposium
 
-Workshop materials are organized in notebooks designed for use in [Colab](https://colab.research.google.com/). To open a notebook in Colab, navigate to the notebook on Github and click the "Open in Colab" badge. 
+Workshop materials are organized in notebooks designed for use in [Colab](https://colab.research.google.com/). To open a notebook in Colab, navigate to the notebook on Github and click the "Open in Colab" badge.
 
 Experience indicates that trying to run notebooks locally during workshops results in using most of the workshop time troubleshooting issues with environment setup--so, while notebooks can in principle run locally, we strongly suggest using Colab during the workshop. If you want to re-use materials from the notebooks after the workshop, please feel free to reach out if you have questions about setting up a local environment.
 
@@ -14,7 +14,7 @@ Experience indicates that trying to run notebooks locally during workshops resul
 
 - Check that you can authenticate with your GCP account in Colab by opening and running [test-setup.ipynb](https://colab.research.google.com/github/contrailcirrus/2024-09-ge-workshop/blob/main/test-setup.ipynb) in Colab. You will need to paste the project ID you noted in the previous step into one of the cells before running. If successful, you should end with a plot of low and high temperatures in Schenectady.
 
-## Outline (WIP)
+## Outline
 
 The workshop is split into two parts.
 
@@ -24,13 +24,25 @@ The second part provides an overview of an open problem: developing a strategy f
 
 ### Part 1: pycontrails basics
 
+[pycontrails-basics.ipynb](https://colab.research.google.com/github/contrailcirrus/2024-09-ge-workshop/blob/main/pycontrails-basics.ipynb)
+
 - Demo: modeling a contrail with [Cocip](https://py.contrails.org/api/pycontrails.models.cocip.Cocip.html#pycontrails.models.cocip.Cocip)
 - Demo: forecasting contrail-forming regions with [CocipGrid](https://py.contrails.org/api/pycontrails.models.cocipgrid.CocipGrid.html#pycontrails.models.cocipgrid.CocipGrid)
 - Q&A/unstructured work time
 
 ### Part 2: verification strategies
 
+[verification-strategies.ipynb](https://colab.research.google.com/github/contrailcirrus/2024-09-ge-workshop/blob/main/verification-strategies.ipynb)
+
 - Demo: automated contrail detection in geostationary satellite imagery
 - Demo: finding flights and contrails in low-Earth-orbit satellite imagery. Based on material from [London contrails workshop](https://github.com/contrailcirrus/2024-06-contrails-workshop/blob/main/labs/landsat_sentinel/Landsat_Sentinel.ipynb).
 - Demo: analysing ground-based contrail imagery. Based on material from [London contrails workshop](https://github.com/contrailcirrus/2024-06-contrails-workshop/tree/main/labs/observer_app_hackathon).
 - Q&A/unstructured work time
+
+### Other Resources
+
+- [Contrail Analysis Workshop (June 2024)](https://github.com/contrailcirrus/2024-06-contrails-workshop/tree/main): Second contrails analysis workshop focused on observations
+  - Lab: [Finding flights in Landsat and Sentinel-2 imagery](https://github.com/contrailcirrus/2024-06-contrails-workshop/blob/main/labs/landsat_sentinel/Landsat_Sentinel.ipynb)
+  - Lab: [Contrails Observer exploration](https://github.com/contrailcirrus/2024-06-contrails-workshop/blob/main/labs/observer_app_hackathon/INTRO.md)
+- [py.contrails.org](https://py.contrails.org/notebooks.html): Pycontrails documentation with notebook examples
+- [pycontrails Workshop (April 2023)](https://github.com/contrailcirrus/2023-04-pycontrails-workshop): First pycontrails workshop
